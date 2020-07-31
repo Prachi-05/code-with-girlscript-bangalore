@@ -17,6 +17,8 @@ In this section, the Pacman needs to collect the ‘points’ as it moves in the
   - One to represent the Pacman. (Ex: ‘@’)
   - Character to represent points that Pacman can collect. (Ex: ‘.’)
   - One to represent a ghost. (Ex: ‘&’)
+  - Example ![Example image](../../assets/images/pacmanGameMedium.png)
+
 - Store this maze structure in a file or in the database.
 - Similarly, create different levels. (At least 3)
 - Each must have a minimum of 10 rows and 40 columns.
