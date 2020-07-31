@@ -17,8 +17,6 @@ In this section, the Pacman needs to collect the ‘points’ as it moves in the
   - One to represent the Pacman. (Ex: ‘@’)
   - Character to represent points that Pacman can collect. (Ex: ‘.’)
   - One to represent a ghost. (Ex: ‘&’)
-  - Example ![Example image](../../assets/images/pacmanGameMedium.png)
-
 - Store this maze structure in a file or in the database.
 - Similarly, create different levels. (At least 3)
 - Each must have a minimum of 10 rows and 40 columns.
@@ -30,8 +28,8 @@ In this section, the Pacman needs to collect the ‘points’ as it moves in the
 - The ghost should move automatically. The movement algorithm can be created by considering the following points:
   - The ghost should start moving in a random direction (left, right, up or down) and continue to move until it hits a wall.
   - After hitting the wall the direction of movement of that ghost should change to a random direction.
-- The game should end after all the points have been collected and move on to the next level.
-- After the last level is completed “You won” should be displayed.
+- The level should end after all the points have been collected and should proceed to the next one.
+- After the last level is completed “Congratulations You Won!” should be displayed.
 
 ### Inputs
 
@@ -39,7 +37,7 @@ The user should be able to control the pacman with arrow keys, or (W,A,S,D).
 
 ### Output
 
-The maze should be displayed on the screen and the player should be able to control the pacman.
+The maze should be displayed on the screen and the player should be able to control the pacman. Once first level is completed it should redirect to the next till all levels are completed.
 
 ## Requirements for submission
 
